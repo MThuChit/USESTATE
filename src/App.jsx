@@ -11,7 +11,7 @@ function App() {
     //setCounter(counter+1) //only run once per render
     //setCounter(counter+1) //only run once per render
     setCounter((prev)=>{
-     return prev+1;
+     return prev+2;
     })
     // setCounter((prev)=>{
     //  return prev+1;
@@ -29,7 +29,7 @@ function App() {
       <p>Counter: {counter}</p>
       <p><input type="text" name="itemName" id="itemName" value={itemName} onChange={onChangeItemName}/></p>
       <p><input type="checkbox" name="hobby" id="ck_music" value="music" onChange={onCheckboxClick}/>Music</p>
-      <p><input type="checkbox" name="hobby" id="ck_movie" value="movie" onChange={onCheckboxClick}/>Music</p>
+      <p><input type="checkbox" name="hobby" id="ck_movie" value="movie" onChange={onCheckboxClick}/>Game</p>
       <p>
         <button onClick={onIncreaseCounterClick}>Click</button>
       </p>
